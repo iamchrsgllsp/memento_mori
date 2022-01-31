@@ -15,6 +15,11 @@ body {
     color: black;
     background-color:goldenrod;
 }
+.header img{
+    height: 100px;
+    
+    
+}
 
 .home{
     font-size: 2em;

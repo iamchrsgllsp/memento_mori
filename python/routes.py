@@ -8,13 +8,13 @@ def test():
 #Home Page
 @app.route('/', methods=['GET'])
 def home():
-    user = "dave"
+    user = "james"
     data = ["hello","world","this is another test"]
     return render_template('home.html',user=user,data=data)
 
 #User Info
 @app.route('/signup', methods=['GET','POST'])
-def home():
+def signup():
     user = "dave"
     data = ["hello","world","this is another test"]
     return render_template('home.html',user=user,data=data)
@@ -25,6 +25,6 @@ def login():
 
 
 
-    
+
 
 app.run(debug=True)
