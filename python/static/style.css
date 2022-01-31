@@ -1,0 +1,27 @@
+*{
+    font-family: 'Lato', sans-serif;
+}
+body {
+    background-color: ghostwhite;
+  }
+  h1 {
+    color: black;
+  }
+  p {
+    color: red;
+  }
+
+.header{
+    color: black;
+    background-color:goldenrod;
+}
+
+.home{
+    font-size: 2em;
+    background-color: orangered;
+    height: 100px;
+}
+
+.items{
+    padding:20px;
+}

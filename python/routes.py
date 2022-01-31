@@ -7,6 +7,8 @@ def test():
 
 @app.route('/', methods=['GET'])
 def home():
-    return render_template('home.html')
+    user = "dave"
+    data = ["hello","world","this is another test"]
+    return render_template('home.html',user=user,data=data)
 
 app.run(debug=True)
